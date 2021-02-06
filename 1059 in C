@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+  int par = 2;
+  int i;
+
+  for(i = 0; par < 101; i++)
+  {
+    printf("%d\n", par);
+    par = par + 2;
+  }
+
+  return 0;
+}
