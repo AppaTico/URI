@@ -1,0 +1,15 @@
+#include <stdio.h>
+ 
+int main() {
+ 
+int dias, meses, anos;
+scanf("%d", &dias);
+anos = dias / 365;
+printf("%d ano(s)\n", anos);
+int resto1 = dias % 365;
+meses = resto1 / 30;
+printf("%d mes(es)\n", meses); 
+int resto2 = resto1 % 30;
+printf("%d dia(s)\n", resto2);
+    return 0;
+}
