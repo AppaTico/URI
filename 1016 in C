@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+ 
+int main() {
+int D;
+scanf("%d", &D);
+int R = D * 2;
+printf("%d minutos\n", R);
+    return 0;
+}
