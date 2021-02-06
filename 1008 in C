@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+int A;
+scanf("%d", &A);
+printf("NUMBER = %d\n", A);
+int B;
+double C;
+scanf("%d %lf", &B, &C);
+double z = B * C;
+printf("SALARY = U$ %.2lf\n", z);
+  return 0;
+}
