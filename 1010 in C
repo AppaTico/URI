@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+float A;
+float a;
+float B;
+float b;
+float C;
+float c;
+scanf("%f %f %f", &A, &a, &B);
+scanf("%f %f %f", &b, &C, &c);
+float r = a * B;
+float R = C * c;
+float K = r + R;
+printf("VALOR A PAGAR: R$ %.2f\n", K);
+  return 0;
+}
