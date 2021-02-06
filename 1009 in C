@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+char A[50];
+double B, C;
+scanf("%[^\n]", A);
+setbuf(stdin, NULL);
+scanf("%lf %lf", &B, &C);
+double L = 0.15;
+double F = C * L;
+double H = B + F;
+printf("TOTAL = R$ %.2lf\n", H);
+
+  return 0;
+}
