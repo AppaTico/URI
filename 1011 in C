@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+double f = 3.14159;
+double r;
+scanf("%lf", &r);
+double y = 4;
+double u = 3.0;
+double R = r*r*r;
+double z = y / u;
+double V = z * f * R;
+printf("VOLUME = %.3lf\n", V);
+  return 0;
+}
