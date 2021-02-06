@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+int main() {
+double A;
+double B;
+double C;
+scanf("%lf %lf %lf", &A, &B, &C);
+
+double t = 0.5;
+double tt = A * C; 
+double T = t * tt;
+printf("TRIANGULO: %.3lf\n", T);
+
+double c = C * C;
+double cc = 3.14159;
+double AC = cc * c;
+printf("CIRCULO: %.3lf\n", AC);
+
+double tr = A + B;
+double Tr = tr * C;
+double TR = Tr *  t;
+printf("TRAPEZIO: %.3lf\n", TR);
+
+double Q = B * B;
+printf("QUADRADO: %.3lf\n", Q);
+
+double R = A * B;
+printf("RETANGULO: %.3lf\n", R);
+  return 0;
+}
