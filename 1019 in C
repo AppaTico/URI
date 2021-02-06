@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main() {
+int segundos, horas, minutos;
+scanf("%d", &segundos);
+
+horas = segundos / 3600;
+printf("%d:", horas);
+int resto1 = segundos % 3600;
+minutos = resto1 / 60;
+printf("%d:", minutos);
+int resto2 = resto1 % 60;
+printf("%d\n", resto2);
+    return 0;
+}
