@@ -1,0 +1,52 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main() {
+ 
+ int N;
+ scanf("%d", &N);
+ int cem = N / 100;
+ int resto = N % 100;
+ int cinq = resto / 50;
+ int n = resto % 50;
+ int vint = n / 20;
+ int v = n % 20;
+ int dez = v / 10;
+ int d = v % 10;
+ int cinc = d / 5;
+ int c = d % 5;
+ int dois = c / 2;
+ int da = c % 2;
+ int um = da / 1;
+printf("%d\n", N);
+if(cem>0)printf("%d nota(s) de R$ 100,00\n", cem);
+if(cem<0)printf("0 nota(s) de R$ 100,00\n");
+if(cem==0)printf("0 nota(s) de R$ 100,00\n");
+
+if(cinq>0)printf("%d nota(s) de R$ 50,00\n", cinq);
+if(cinq<0)printf("0 nota(s) de R$ 50,00\n");
+if(cinq==0)printf("0 nota(s) de R$ 50,00\n");
+
+if(vint>0)printf("%d nota(s) de R$ 20,00\n", vint);
+if(vint<0)printf("0 nota(s) de R$ 20,00\n");
+if(vint==0)printf("0 nota(s) de R$ 20,00\n");
+
+if(dez>0)printf("%d nota(s) de R$ 10,00\n", dez);
+if(dez<0)printf("0 nota(s) de R$ 10,00\n");
+if(dez==0)printf("0 nota(s) de R$ 10,00\n");
+
+if(cinc>0)printf("%d nota(s) de R$ 5,00\n", cinc);
+if(cinc<0)printf("0 nota(s) de R$ 5,00\n");
+if(cinc==0)printf("0 nota(s) de R$ 5,00\n");
+
+if(dois>0)printf("%d nota(s) de R$ 2,00\n", dois);
+if(dois<0)printf("0 nota(s) de R$ 2,00\n");
+if(dois==0)printf("0 nota(s) de R$ 2,00\n");
+
+if(um>0)printf("%d nota(s) de R$ 1,00\n", um);
+if(um<0)printf("0 nota(s) de R$ 1,00\n");
+if(um==0)printf("0 nota(s) de R$ 1,00\n");
+
+    return 0;
+}
