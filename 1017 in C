@@ -1,0 +1,13 @@
+#include <stdio.h>
+ 
+int main() {
+ 
+double K, L;
+scanf("%lf %lf", &K, &L);
+double R = L * K;
+double U = 12;
+double EOQ = R / U;
+printf("%.3lf\n", EOQ);
+
+    return 0;
+}
