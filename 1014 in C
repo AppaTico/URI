@@ -1,0 +1,11 @@
+#include <stdio.h>
+ 
+int main() {
+ 
+double X, Y;
+scanf("%lf %lf", &X, &Y);
+double x = X / Y;
+printf("%.3lf km/l\n", x);
+ 
+    return 0;
+}
