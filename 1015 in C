@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+ 
+int main() {
+ double p1, p2;
+ double x1, x2, y1, y2;
+ scanf("%lf %lf %lf %lf", &x1, &y1, &x2, &y2);
+ double A = x2 - x1;
+ double AA = A * A;
+ double B = y2 - y1;
+ double BB = B * B;
+double Z = AA + BB;
+double Y = sqrt(Z);
+ printf("%.4lf\n", Y);
+    return 0;
+}
